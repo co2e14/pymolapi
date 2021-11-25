@@ -28,9 +28,9 @@ def pdbhandle(pdbid):
     pm.show('surface')
     pm.reset()
     pm.ray(3000,3000)
-    pm.save(pdbid, format='png', )
+    pm.save(pdbid, format='png')
     
 
 if __name__ == '__main__':
     setup()
-    pdbhandle('6fax')
+    pdbhandle('9h37')
